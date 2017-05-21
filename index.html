@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ergoscore Calculator</title>
+    <meta name="description" content="Ergoscore Calculator">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Ergoscore Calculator
+      </h1>
+    </header>
+
+    <main>
+      <form id="ergoCalculator">
+        <label>500m split</label>
+        <input name="split" placeholder="1:55.2">
+        <label>Leeftijd</label>
+        <input name="age" placeholder="35">
+        <label>Gewicht</label>
+        <input name="weight" placeholder="82,4">
+        <div class="radio-buttons">
+          <label><input type="radio" name="sex" value="m"> Man</label>
+          <label><input type="radio" name="sex" value="f"> Vrouw</label>
+        </div>
+        <button type="submit">Bereken</button>
+      </form>
+      <section class="result">
+        <p>Score: <span class="score" id="score"></span></p>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="https://hoopergocompetitie.wordpress.com/ranglijsten/">
+        Bekijk de ranglijst
+      </a>
+      </p>
+      <p>
+        Gemaakt door Vincent Oord
+      </p>
+      
+    </footer>
+
+    <script src="js/client.js"></script>
+
+  </body>
+</html>
