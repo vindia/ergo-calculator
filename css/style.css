@@ -1,9 +1,11 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Inter UI", Helvetica, Arial, sans-serif;
   margin: 25px;
 }
 
