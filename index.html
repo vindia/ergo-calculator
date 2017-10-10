@@ -13,38 +13,40 @@
       <h1>
         Ergoscore Calculator
       </h1>
+      <p class="centered">Reken je score van 20 minuten ergometeren om voor je leeftijd, gewicht en geslacht</p>
     </header>
 
     <main>
       <form id="ergoCalculator">
-        <label>500m split</label>
-        <input name="split" placeholder="1:55.2">
+        <label>Afstand (in meters)</label>
+        <input name="distance" placeholder="4832">
         <label>Leeftijd</label>
         <input name="age" placeholder="35">
         <label>Gewicht</label>
-        <input name="weight" placeholder="82,4">
+        <input name="weight" placeholder="82.4">
         <div class="radio-buttons">
-          <label><input type="radio" name="sex" value="m"> Man</label>
-          <label><input type="radio" name="sex" value="f"> Vrouw</label>
+          <label><input type="radio" name="gender" value="m" checked> Man</label>
+          <label><input type="radio" name="gender" value="f"> Vrouw</label>
         </div>
-        <button type="submit">Bereken</button>
+        <button type="submit">Bereken score</button>
       </form>
       <section class="result">
-        <p>Score: <span class="score" id="score"></span></p>
+        <p>Jouw score: <span class="score" id="score"><span class="ghost">0000.000</span></span></p>
       </section>
+      <p class="centered">
+        <a href="https://hoopergocompetitie.wordpress.com/ranglijsten/">
+          Bekijk de ranglijst
+        </a>
+      </p>
     </main>
 
     <footer>
-      <p><a href="https://hoopergocompetitie.wordpress.com/ranglijsten/">
-        Bekijk de ranglijst
-      </a>
-      </p>
-      <p>
-        Gemaakt door Vincent Oord
-      </p>
+      Gemaakt door <a href="https://vincentoord.nl">Vincent Oord</a>
     </footer>
 
-    <script src="js/client.js"></script>
-
+    <script src="js/ergo-score-calculator.js"></script>
+    <script>
+      ergoScoreCalculator.init();
+    </script>
   </body>
 </html>
