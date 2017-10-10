@@ -8,7 +8,7 @@ This calculator was made to easily calculate the score for participants to the
 internal Ergometer Challenge of my rowing club, [KAR&ZV De Hoop][1], but feel
 free to use it for your own Ergometer Challenges too!
 
-## Version 1 (2016)
+## [Version 1 (2016)][v1]
 The first edition the Challenge consisted of rowing 5k on a Concept 2 ergometer
 and getting the best possible split. We used the following format to determine
 the final score compensated for gender, weight and age.
@@ -18,7 +18,7 @@ the final score compensated for gender, weight and age.
 * Compensate for decreased performance per year over the age of 30 by 0,8%
 * Use a 15% multiplier for female participants
 
-## Version 2 (2017)
+## [Version 2 (2017)][v2]
 In the section edition of the competition we changed some rules as both older
 and female members felt the compensation score was not totally fair. This time
 we used a modified format to make the end result more fair.
@@ -30,3 +30,5 @@ we used a modified format to make the end result more fair.
 
 
 [1]: http://karzvdehoop.nl
+[v1]: https://github.com/vindia/ergo-calculator/releases/tag/v1
+[v2]: https://github.com/vindia/ergo-calculator/releases/tag/v2
