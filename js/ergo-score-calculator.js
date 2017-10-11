@@ -58,7 +58,7 @@ var ergoScoreCalculator = (function() {
     var compensatedDistance = compensateDistance(distance, parsedWeight);
     var finalScore = compensatedDistance / ageFactor * genderMultiplier(gender);
 
-    scoreContainer.innerText = parseFloat(finalScore).toFixed(3);
+    scoreContainer.innerText = parseFloat(finalScore).toFixed(0);
     scoreContainer.scrollIntoView();
 
     console.log({
