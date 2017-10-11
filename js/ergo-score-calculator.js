@@ -49,7 +49,7 @@ var ergoScoreCalculator = (function() {
   function parseAgeFactor(age) {
     ageDifference = parseInt(age) > 30 ? age - 30 : 0;
     factor = 100 * Math.pow(1 - 0.0065, ageDifference);
-    return parseFloat(factor).toFixed(1);
+    return parseFloat(factor).toFixed(2);
   }
 
   function calculateScore(distance, weight, age, gender) {
