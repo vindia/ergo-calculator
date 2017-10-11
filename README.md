@@ -31,4 +31,4 @@ we used a modified format to make the end result more fair.
 
 [1]: http://karzvdehoop.nl
 [v1]: https://github.com/vindia/ergo-calculator/releases/tag/v1
-[v2]: https://github.com/vindia/ergo-calculator/releases/tag/v2
+[v2]: https://github.com/vindia/ergo-calculator
